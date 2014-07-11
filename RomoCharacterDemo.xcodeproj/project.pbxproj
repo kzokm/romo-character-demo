@@ -24,8 +24,8 @@
 		29582F4E196FC87A00540C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29582F50196FC87A00540C74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		29582F66196FC8B900540C74 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		29582F67196FC8ED00540C74 /* RMCharacter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMCharacter.framework; path = ../../Dropbox/Romo/RomoSDK_v1.0C/frameworks/RMCharacter.framework; sourceTree = "<group>"; };
-		29582F69196FC90100540C74 /* RMCharacter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RMCharacter.bundle; path = ../../Dropbox/Romo/RomoSDK_v1.0C/frameworks/RMCharacter.bundle; sourceTree = "<group>"; };
+		29582F67196FC8ED00540C74 /* RMCharacter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMCharacter.framework; path = ../RomoSDK_v1.0C/frameworks/RMCharacter.framework; sourceTree = "<group>"; };
+		29582F69196FC90100540C74 /* RMCharacter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RMCharacter.bundle; path = ../RomoSDK_v1.0C/frameworks/RMCharacter.bundle; sourceTree = "<group>"; };
 		29DC1F0B196FCB1D00FAE4DE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -264,7 +264,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/kz/Dropbox/Romo/RomoSDK_v1.0C/frameworks,
+					../RomoSDK_v1.0C/frameworks,
 				);
 				INFOPLIST_FILE = RomoCharacterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -281,7 +281,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/kz/Dropbox/Romo/RomoSDK_v1.0C/frameworks,
+					../RomoSDK_v1.0C/frameworks,
 				);
 				INFOPLIST_FILE = RomoCharacterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
